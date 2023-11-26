@@ -1,0 +1,158 @@
+@media screen and (max-width:1400px) {
+    .OOTD{
+        width: 80vw !important;
+        margin-left: 10% !important;
+    }
+
+}
+.OOTD{
+    font-family: 'GongGothicMedium';
+    float: left;
+    margin-top: 80px;
+    width: 60vw;
+    margin-left: 20%;
+    margin-bottom: 100px;
+    border: 1px solid #000;
+}
+.OOTDHeader{
+    width: 100%;
+    border: 1px solid #000;
+
+    background-color: black;
+    height: 30px;
+    float: left;
+}
+.UserInfo{
+    margin: 0;
+    margin-left: 5px;
+    float: left;
+    line-height: 30px;
+    color:white;
+    font-size: 14px;
+}
+.Delete{
+    float: right;
+    line-height: 30px;
+
+}
+.Star{
+    color:yellow;
+    line-height: 30px;
+    float: right;
+}
+.LeftOOTD{
+
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+.LeftOOTD img{
+    float: left;
+    width:90%;
+    margin:5%;
+    padding: 0;
+}
+
+
+.LeftOOTD .UserSpec{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    background-color: rgba(0,0,0,0.5);
+    height: 40px;
+}   
+.LeftOOTD p{
+    float: left;
+    margin: 0;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    padding: 0;
+    bottom:5px;
+    margin-left: 5px;
+}
+.LeftOOTD button{
+    bottom:5px;
+    right: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0);
+    border: 0px solid #000;
+    padding: 0;
+    color:white;
+    font-size: 14px;
+    line-height: 38px;
+    margin-right: 5px;
+    float: right;
+}
+
+.OOTDInfo{
+    object-fit: contain;
+    position: relative;
+    right: 15px;
+    margin-top: 3%;
+    padding: 0;
+    padding: 5px;
+    margin-left: 1.5%;
+    list-style: none;
+    border: 1px solid black;
+    width: calc(48% - 15px);
+    float: left;
+    overflow-y: scroll;
+    background-color: red;
+
+}
+.OOTDInfo img{
+    margin-top: 2px;
+    width: 100px;
+    float: left;
+    height: 120px;
+    
+}
+.OOTDInfo p{
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-left: 10px;
+    width: calc(100% - 220px);
+}
+.OOTD .Brand{
+    margin-bottom: 10px;
+    color:gray;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.Name{
+    margin-top: 13px !important;
+    font-size: 14px;
+}
+.Size{
+    margin-top: 3px !important;
+    font-size: 13px;
+}
+.Categori{
+    margin-top: 20px !important;
+    font-size: 14px;
+}
+
+.Shopping{
+    width: 100px;
+    height: 120px;
+
+    border: 0px ;
+    
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: white;
+}
+.Shopping img {
+    object-fit:  contain;
+}
