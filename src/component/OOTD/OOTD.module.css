@@ -3,6 +3,12 @@
         width: 80vw !important;
         margin-left: 10% !important;
     }
+    .LeftOOTD img{
+        height: 500px !important;
+    }
+    .RightBox{
+        height: 450px !important;
+    }
 
 }
 .OOTD{
@@ -54,6 +60,7 @@
 .LeftOOTD img{
     float: left;
     width:90%;
+    height: 600px;
     margin:5%;
     padding: 0;
 }
@@ -92,21 +99,32 @@
     margin-right: 5px;
     float: right;
 }
+.RightBox{
+    margin-top: 3%;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    padding-left: 20px ;
+    border-bottom: 1px solid #000;
+    height: 550px;
+    float: left;
+    width: calc(48% - 15px);
 
+}
+
+.RightBox::-webkit-scrollbar{
+  }
+  
+  
 .OOTDInfo{
+    
     object-fit: contain;
     position: relative;
-    right: 15px;
-    margin-top: 3%;
+    right: 20px;
     padding: 0;
     padding: 5px;
-    margin-left: 1.5%;
-    list-style: none;
     border: 1px solid black;
-    width: calc(48% - 15px);
+    width: 100%;
     float: left;
-    overflow-y: scroll;
-    background-color: red;
 
 }
 .OOTDInfo img{
@@ -155,4 +173,11 @@
 }
 .Shopping img {
     object-fit:  contain;
+}
+
+.footMenu{
+    width: 50%;
+    background-color: red;
+    position: absolute;
+    left: 50.5%;
 }

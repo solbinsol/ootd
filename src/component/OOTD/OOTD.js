@@ -16,7 +16,7 @@ export default function OOTD(){
                     <button className={style.Like}>♡</button>
                 </div>
             </div>
-            <div>
+            <div className={style.RightBox}>
                 <div className={style.OOTDInfo}>
                     <img src="/img/thumnail/glass.jpg"></img>
                     <p className={style.Brand}>브랜드</p>
@@ -26,7 +26,39 @@ export default function OOTD(){
                     <p className={style.Categori}>분류 : 안경</p>
                     <button className={style.Shopping}><img src="/img/icon/cart.png"></img></button>
                 </div>
+                <div className={style.OOTDInfo}>
+                    <img src="/img/thumnail/glass.jpg"></img>
+                    <p className={style.Brand}>브랜드</p>
+                    <p className={style.Name}>제품이름</p>
+
+                    <p className={style.Size}>사이즈</p>
+                    <p className={style.Categori}>분류 : 안경</p>
+                    <button className={style.Shopping}><img src="/img/icon/cart.png"></img></button>
+                </div>
+                <div className={style.OOTDInfo}>
+                    <img src="/img/thumnail/glass.jpg"></img>
+                    <p className={style.Brand}>브랜드</p>
+                    <p className={style.Name}>제품이름</p>
+
+                    <p className={style.Size}>사이즈</p>
+                    <p className={style.Categori}>분류 : 안경</p>
+                    <button className={style.Shopping}><img src="/img/icon/cart.png"></img></button>
+                </div>
+                <div className={style.OOTDInfo}>
+                    <img src="/img/thumnail/glass.jpg"></img>
+                    <p className={style.Brand}>브랜드</p>
+                    <p className={style.Name}>제품이름</p>
+
+                    <p className={style.Size}>사이즈</p>
+                    <p className={style.Categori}>분류 : 안경</p>
+                    <button className={style.Shopping}><img src="/img/icon/cart.png"></img></button>
+                </div>
+                <div className={style.footMenu}>
+                    <button className={style.Like}>LIKE</button>
+                    <button className={style.Comment}>댓글</button>
             </div>
+            </div>
+
         </div>
     )
 }
