@@ -11,10 +11,24 @@
 
     /* font-family: 'PartialSansKR-Regular'; */
     margin: 0;
+    float: left;
     padding: 0;
     line-height: 60px;
     color:white;
     margin-left:20px;
     font-size: 30px !important;
     font-weight: normal;
+    width: 120px;
+}
+.HeaderMenu{
+    font-family: 'Giants-Inline';
+    line-height: 30px;
+    font-size: 17px;
+    float: left;
+    color:white;
+}
+.HeaderMenu li{
+    color:white;
+    text-decoration: none;
+    list-style: none;
 }

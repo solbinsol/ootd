@@ -10,6 +10,7 @@ export default function OOTDPage() {
         <Header></Header>
       </div>
       <div className={style.OOTD}>
+
         <OOTD></OOTD>
       </div>
     </div>
