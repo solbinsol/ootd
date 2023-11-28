@@ -11,6 +11,8 @@ export default function Header(){
                 <ul className={style.ContentBox}>
                 <Link href="#Snap"><li>#Snap</li></Link>
                 <Link href="#TrendSetter"><li>#TrendSetter</li></Link>
+                <Link href="#HotItem"><li>#HotItem</li></Link>
+
                 </ul>
             </div>
         </div>

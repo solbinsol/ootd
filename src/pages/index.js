@@ -3,6 +3,8 @@ import style from "../styles/Home.module.css";
 import Header from "@/component/Header/Header";
 import OOTD from "@/component/OOTD/OOTD";
 import TrendSetter from "@/component/TrendSetter/TrendSetter";
+import HotItem from "@/component/HotItem/hotItem";
+import HotItemComponent from "@/component/HotItem/hotItem";
 
 export default function OOTDPage() {
   return (
@@ -16,6 +18,10 @@ export default function OOTDPage() {
       <div className={style.Trend}>
         <TrendSetter></TrendSetter>
       </div>
+      <div className={style.Item}>
+        <HotItemComponent></HotItemComponent>
+      </div>
+      
     </div>
   )
 }

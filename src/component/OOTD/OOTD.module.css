@@ -1,5 +1,5 @@
 @media screen and (max-width:1400px) {
-    .OOTD{
+    .OOTDPage .OOTD{
         width: 80vw !important;
         height: 470px;
         margin-left: 10% !important;
@@ -18,7 +18,7 @@
 
 }
 @media screen and (max-width:800px) {
-    .OOTD{
+    .OOTDPage .OOTD{
         height: 400px !important;
 
         width: 80vw !important;
@@ -78,7 +78,7 @@
 }
 
 @media screen and (max-width:624px) {
-    .OOTD{
+    .OOTDPage .OOTD{
         height: 350px !important;
 
         width: 80vw !important;
@@ -140,7 +140,7 @@
 }
 
 @media screen and (max-width:461px) {
-    .OOTD{
+    .OOTDPage .OOTD{
         height: 270px !important;
 
         width: 80vw !important;
@@ -212,7 +212,8 @@
 
 @media screen and (max-width:415px) {
 
-    .OOTD{
+    .OOTDPage .OOTD{
+        
         height: 230px !important;
 
         width: 80vw !important;
@@ -282,20 +283,22 @@
     }
 
 }
-
-
+.slick-arrow{
+    display: none !important;
+}
 .OOTD{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-
-    width: 60vw;
     font-family: 'GongGothicMedium';
     float: left;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 20%;
     margin-bottom: 60px;
-
+    width: 60% !important;
+    margin-bottom: 20px ;
 }
+
 .OOTDHeader{
+    
     width: 100%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
@@ -519,7 +522,7 @@
     font-weight: bold;
     border: 0px solid #000;
     position: relative;
-    top: 60px;
+    top: 40px;
     margin: 0;
     margin-left: 20%;
 }
