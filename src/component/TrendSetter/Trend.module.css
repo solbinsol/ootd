@@ -19,7 +19,7 @@
 }
 @media screen and (max-width:721px) {
     .TSbox{
-        height: 180px !important;
+        height: 200px !important;
     }
 }
 .TrendSetter {
@@ -44,4 +44,14 @@
 }
 .TSbox:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .TSheader{
+    position: absolute;
+    color:white;
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  .TSbox img{
+    width: 100%;
+    height: 100%;
   }

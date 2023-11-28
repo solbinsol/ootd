@@ -8,7 +8,10 @@ export default function TrendSetter(){
             <h1>TrendSetter</h1>
             <div id="TrendSetter" className={style.TrendSetterBox}>
                 <div className={style.TSbox}>
-
+                    <div className={style.TSheader}>
+                        solbin / Like 3
+                    </div>
+                    <img src="img/ootd1.jpg"></img>
                 </div>
                 <div className={style.TSbox}>
                     

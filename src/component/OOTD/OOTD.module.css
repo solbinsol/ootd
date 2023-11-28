@@ -285,8 +285,9 @@
 
 
 .OOTD{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
     width: 60vw;
-    border: 1px solid #000;
     font-family: 'GongGothicMedium';
     float: left;
     margin-top: 60px;
@@ -296,7 +297,7 @@
 }
 .OOTDHeader{
     width: 100%;
-    border: 1px solid #000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
     background-color: black;
     height: 30px;
