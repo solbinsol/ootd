@@ -9,15 +9,21 @@ export default function TrendSetter(){
             <div id="TrendSetter" className={style.TrendSetterBox}>
                 <div className={style.TSbox}>
                     <div className={style.TSheader}>
-                        solbin / Like 3
+                        <p>solbin / Like 3</p>
                     </div>
                     <img src="img/ootd1.jpg"></img>
                 </div>
                 <div className={style.TSbox}>
-                    
+                <div className={style.TSheader}>
+                        <p>solbin2 / Like 2</p>
+                    </div>
+                    <img src="img/ootd2.jpg"></img>
                 </div>
                 <div className={style.TSbox}>
-                    
+                <div className={style.TSheader}>
+                   <p>solbin3 / Like 2</p>
+                </div>
+                    <img src="img/ootd4.jpg"></img>
                 </div>
                 <div className={style.TSbox}>
                     

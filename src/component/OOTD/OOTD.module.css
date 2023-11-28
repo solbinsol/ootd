@@ -389,6 +389,8 @@
     height: 550px;
     float: left;
     width: calc(48% - 15px);
+    border-collapse: collapse;
+
 
 }
 
@@ -398,7 +400,7 @@
   
   
 .OOTDInfo{
-    
+    border-collapse: collapse;
     object-fit: contain;
     position: relative;
     right: 20px;
