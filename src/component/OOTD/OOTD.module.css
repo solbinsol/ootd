@@ -17,22 +17,273 @@
     }
 
 }
-@media screen and (max-width:721px) {
+@media screen and (max-width:800px) {
     .OOTD{
+        height: 400px !important;
+
         width: 80vw !important;
         margin-left: 10% !important;
     }
     .LeftOOTD img{
-        height: 500px !important;
+    }
+    .IMGBOX{
+        height: 330px !important;
     }
     .RightBox{
-        height: 450px !important;
+        height: 280px !important;
     }
     .Snap{
         margin-left: 10% !important;
     }
+    .OOTDInfo{
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 50px !important;
+        float: left;
+        height: 60px !important;
+    }
+    .OOTDInfo p{
+        font-size: 11px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        margin-top: 3.5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 11px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:14px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        margin-top: 15px !important;
+    }
 
 }
+
+@media screen and (max-width:624px) {
+    .OOTD{
+        height: 350px !important;
+
+        width: 80vw !important;
+        margin-left: 10% !important;
+    }
+    .LeftOOTD {
+        float: left !important;
+        width: 49% !important;
+    }
+    .IMGBOX{
+        height: 290px !important;
+    }
+    .RightBox{
+        height: 240px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .OOTDInfo{
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 50px !important;
+        float: left;
+        height: 60px !important;
+    }
+    .OOTDInfo p{
+        font-size: 11px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        margin-top: 3.5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 11px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:14px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        margin-top: 15px !important;
+    }
+
+}
+
+@media screen and (max-width:461px) {
+    .OOTD{
+        height: 270px !important;
+
+        width: 80vw !important;
+        margin-left: 10% !important;
+    }
+    .LeftOOTD {
+        float: left !important;
+        width: 49% !important;
+    }
+    .IMGBOX{
+        height: 220px !important;
+    }
+    .RightBox{
+        height: 188.5px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .footMenu button{
+        height: 30px !important;
+        line-height: 30px !important;
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 40px !important;
+        float: left;
+        height: 50px !important;
+    }
+    .OOTDInfo p{
+        font-size: 10px !important;
+        width: 50% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 10px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:14px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        margin-top: 5px !important;
+    }
+    .UserSpec{
+        height: 25px !important;
+    }
+    .UserSpec p{
+        font-weight: normal;
+        line-height: 30px !important;
+        font-size: 12px !important;
+    }
+}
+
+
+@media screen and (max-width:415px) {
+
+    .OOTD{
+        height: 230px !important;
+
+        width: 80vw !important;
+        margin-left: 10% !important;
+    }
+    .LeftOOTD {
+        float: left !important;
+        width: 48% !important;
+    }
+    .IMGBOX{
+        height: 180px !important;
+    }
+    .RightBox{
+        height: 147px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .footMenu button{
+        height: 30px !important;
+        line-height: 30px !important;
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 25px !important;
+        float: left;
+        height: 30px !important;
+    }
+    .OOTDInfo p{
+        font-size: 10px !important;
+        width: 50% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 10px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        width: 150% !important;
+        display: none;
+        margin-top: 3px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:8px;
+        right: 0 !important;
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        bottom:10px !important;
+    }
+    .UserSpec{
+        height: 25px !important;
+    }
+    .UserSpec p{
+        font-weight: normal;
+        line-height: 30px !important;
+        font-size: 12px !important;
+    }
+
+}
+
+
 .OOTD{
     width: 60vw;
     border: 1px solid #000;
