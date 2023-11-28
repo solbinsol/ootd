@@ -1,6 +1,25 @@
 @media screen and (max-width:1400px) {
     .OOTD{
         width: 80vw !important;
+        height: 470px;
+        margin-left: 10% !important;
+    }
+    .IMGBOX{
+        height: 400px !important;
+    }
+    .LeftOOTD img{
+    }
+    .RightBox{
+        height: 353px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+
+}
+@media screen and (max-width:721px) {
+    .OOTD{
+        width: 80vw !important;
         margin-left: 10% !important;
     }
     .LeftOOTD img{
@@ -15,13 +34,14 @@
 
 }
 .OOTD{
+    width: 60vw;
     border: 1px solid #000;
     font-family: 'GongGothicMedium';
     float: left;
     margin-top: 60px;
-    width: 60vw;
     margin-left: 20%;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+
 }
 .OOTDHeader{
     width: 100%;
@@ -49,6 +69,21 @@
     line-height: 30px;
     float: right;
 }
+.IMGBOX{
+    width: 90%;
+    margin:5% 2.5% 5% 3%;
+    height: 600px;
+    background-color: gray;
+}
+
+.LeftOOTD img{
+    float: left;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    padding: 0;
+
+}
 .LeftOOTD{
 
     margin: 0;
@@ -57,21 +92,12 @@
     float: left;
     margin-bottom: 5px;
     margin-left: 5px;
-    margin-top: 5px;
     position: relative;
 }
-.LeftOOTD img{
-    
-    float: left;
-    width:90%;
-    height: 600px;
-    margin:5%;
-    padding: 0;
-}
+
 
 
 .LeftOOTD .UserSpec{
-    margin-left: 5%;
     margin-bottom: 5%;
     padding: 0;
     position: absolute;
@@ -104,7 +130,7 @@
     float: right;
 }
 .RightBox{
-    margin-top: 3%;
+    margin-top: 2.5%;
     overflow-y: scroll;
     overflow-x:hidden;
     padding-left: 20px ;
@@ -216,6 +242,7 @@
 
 }
 .footMenu button{
+    cursor: pointer;
     padding: 0;
     width: 49%;
     font-family: 'GongGothicMedium';
@@ -241,4 +268,13 @@
     top: 60px;
     margin: 0;
     margin-left: 20%;
+}
+.CommentActive{
+    background-color: black !important;
+    color:white;
+}
+.LikeActive{
+    border: 2px solid pink !important;
+
+    background-color: pink !important;
 }

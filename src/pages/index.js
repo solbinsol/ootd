@@ -2,6 +2,7 @@ import React from "react";
 import style from "../styles/Home.module.css";
 import Header from "@/component/Header/Header";
 import OOTD from "@/component/OOTD/OOTD";
+import TrendSetter from "@/component/TrendSetter/TrendSetter";
 
 export default function OOTDPage() {
   return (
@@ -10,8 +11,10 @@ export default function OOTDPage() {
         <Header></Header>
       </div>
       <div className={style.OOTD}>
-
         <OOTD></OOTD>
+      </div>
+      <div className={style.Trend}>
+        <TrendSetter></TrendSetter>
       </div>
     </div>
   )

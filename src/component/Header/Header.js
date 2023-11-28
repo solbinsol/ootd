@@ -10,6 +10,7 @@ export default function Header(){
             <div className={style.HeaderMenu}>
                 <ul className={style.ContentBox}>
                 <Link href="#Snap"><li>#Snap</li></Link>
+                <Link href="#TrendSetter"><li>#TrendSetter</li></Link>
                 </ul>
             </div>
         </div>

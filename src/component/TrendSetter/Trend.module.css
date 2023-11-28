@@ -1,0 +1,47 @@
+@media screen and (max-width:1400px) {
+    .TrendSetter{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+    .LeftOOTD img{
+        height: 500px !important;
+    }
+    .RightBox{
+        height: 450px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .TSbox{
+        height: 300px !important;
+    }
+
+}
+@media screen and (max-width:721px) {
+    .TSbox{
+        height: 180px !important;
+    }
+}
+.TrendSetter {
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-family: 'Giants-Inline';
+    margin-left: 20%;
+    width: 60%;
+
+}
+.TrendSetterBox{
+    width: 100%;
+}
+.TSbox{
+    background-color: white;
+    width: calc(33.33% - 10px);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 5px;
+    float: left;
+    height: 400px;
+}
+.TSbox:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }

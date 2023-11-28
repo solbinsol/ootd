@@ -22,6 +22,7 @@
 }
 .HeaderMenu{
     font-family: 'Giants-Inline';
+    width: 70%;
     line-height: 30px;
     font-size: 17px;
     float: left;
@@ -30,5 +31,12 @@
 .HeaderMenu li{
     color:white;
     text-decoration: none;
+    margin-right: 40px;
+    float: left;
     list-style: none;
+}
+
+.ContentBox{
+    background-color: palegoldenrod;
+    width: 100%;
 }
