@@ -3,8 +3,7 @@ import style from "../styles/Home.module.css";
 import Header from "@/component/Header/Header";
 import OOTD from "@/component/OOTD/OOTD";
 import TrendSetter from "@/component/TrendSetter/TrendSetter";
-import HotItem from "@/component/HotItem/hotItem";
-import HotItemComponent from "@/component/HotItem/hotItem";
+import HotItemComponent from "@/component/HotItem/HotItem";
 
 export default function OOTDPage() {
   return (

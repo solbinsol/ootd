@@ -28,7 +28,7 @@ export default function HotItemComponent(){
             <h1 className={style.HotItem}>#HotItem</h1>
             {/* <Slider {...settings}>
             </Slider> */}
-
+                
         </div>
 
     )

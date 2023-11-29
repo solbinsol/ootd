@@ -66,11 +66,12 @@
     }
 }
 .TrendSetter {
-    margin: 0;
+    margin: 0 auto ;
+    max-width: 1900px;
     padding: 0;
+    margin-left: 20%;
     float: left;
     font-family: 'Giants-Inline';
-    margin-left: 20%;
     width: 60%;
 
 }
@@ -87,6 +88,7 @@
     height: 500px;
 }
 .TSbox:hover {
+    transform: scale(1.01); /* 20% 더 커짐 */
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   .TSheader{

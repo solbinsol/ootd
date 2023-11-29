@@ -1,4 +1,8 @@
 @media screen and (max-width:1400px) {
+    .AddOOTD{
+        right: 10% !important;
+    }
+
     .OOTDPage .OOTD{
         width: 80vw !important;
         height: 470px;
@@ -106,14 +110,15 @@
         height: 60px !important;
     }
     .OOTDInfo p{
-        font-size: 11px !important;
+        
+        font-size: 10px !important;
         width: 60% !important;
         margin: 0 !important;
         margin-left: 5px !important;
         margin-top: 3.5px !important;
     }
     .OOTDInfo span{
-        font-size: 11px !important;
+        font-size: 10px !important;
         margin: 0 !important;
         margin-left: 5px !important;
 
@@ -285,6 +290,11 @@
 }
 .slick-arrow{
     display: none !important;
+}
+.OOTDPage{
+    margin: 0 auto ;
+    max-width: 1900px !important;
+
 }
 .OOTD{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -515,8 +525,25 @@
     margin-left: 2%;
     
 }
+.AddOOTD{
+    line-height: 35px; /* 높이와 동일하게 설정 */
+    animation: abc 2s infinite;
+    position: absolute;
+    font-size: 40px;
+    right: 20%;
+    top:90px;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+    background-color: #000;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 200px;
 
+    box-sizing: border-box; /* 패딩과 보더를 너비와 높이에 포함 */
 
+}
 .Snap{
     font-family: 'Giants-Inline';
     font-weight: bold;
@@ -526,9 +553,22 @@
     margin: 0;
     margin-left: 20%;
 }
+@keyframes abc {
+    0%, 100% {
+        transform: scale(1); /* 원래 크기 */
+    }
+    50% {
+        transform: scale(1.2); /* 20% 더 커짐 */
+    }
+}
+
+
 .CommentActive{
     background-color: black !important;
     color:white;
+}
+.Like{
+    width: 48.2% !important;
 }
 .LikeActive{
     border: 2px solid pink !important;

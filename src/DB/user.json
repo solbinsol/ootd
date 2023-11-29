@@ -1,0 +1,30 @@
+[
+    {
+        "id": "test@naver.com",
+        "password": "test",
+        "nickname": "Kimsolbin",
+        "height": "174",
+        "weight": "60"
+    },
+    {
+        "id": "test2@naver.com",
+        "password": "test",
+        "nickname": "Solbin",
+        "height": "174",
+        "weight": "60"
+    },
+    {
+        "id": "test3@naver.com",
+        "password": "test",
+        "nickname": "Binsol",
+        "height": "174",
+        "weight": "60"
+    },
+    {
+        "id": "test4@naver.com",
+        "password": "test",
+        "nickname": "ssosbsn",
+        "height": "174",
+        "weight": "60"
+    }
+]
