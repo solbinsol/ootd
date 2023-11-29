@@ -297,7 +297,7 @@
 
 }
 .OOTD{
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     font-family: 'GongGothicMedium';
     float: left;
     margin-top: 40px;
@@ -335,6 +335,7 @@
     float: right;
 }
 .IMGBOX{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     width: 90%;
     margin:5% 2.5% 5% 3%;
     height: 600px;

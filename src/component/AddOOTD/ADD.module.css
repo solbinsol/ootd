@@ -1,0 +1,110 @@
+@media screen and(max-width:1400px) {
+    .AddOOTD{
+        width: 80% !important;
+
+        margin-left: 10% !important;
+    }
+}
+.ADDALL{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 60px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.AddOOTD{
+    width: 60%;
+    height: 80vh;
+    background-color: rgb(27, 23, 23);
+    max-width: 1900px;
+    position: absolute;
+    z-index: 9;
+    top: 60px;
+    border: 2px solid white;
+    box-shadow: 0 28px 42px rgba(243, 241, 241, 0.25), 0 10px 10px rgba(190, 190, 190, 0.22);
+
+    margin-left: 20%;
+}
+.AddInputBox{
+    color:white;
+    font-family: 'GongGothicMedium';
+
+
+}
+
+.AddInputBox label{
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+.AddInputBox input{
+
+    width: 40%;
+    border-radius: 15px;
+    height: 5vh;
+}
+.Logo{
+    font-family: 'Giants-Inline';
+
+    
+    margin: 0;
+    padding: 0;
+    float: left;
+    
+    width: 100%;
+    text-align: left;
+    background-color: palegoldenrod;
+}
+.Logo h1{
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+    line-height: 20px;
+}
+
+.AddInputBox{
+
+}
+.OOTDInput {
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+.OOTDInput input{
+    width: 99%;
+    font-size:1.2rem;
+}
+.ItemInput{
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+.ItemInput input{
+    width: 99%;
+    font-size:1.2rem;
+}
+.ItemInput select{
+    margin-left: 5px;
+    width: 30%;
+    border-radius: 10px;
+    margin-top:10px;
+    height: 30px;
+}
+.Close{
+    color: red;
+    text-align: right;
+    font-family: 'GongGothicMedium';
+    width: 45% !important;
+    cursor: pointer;
+}

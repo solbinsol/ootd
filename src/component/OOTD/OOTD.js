@@ -87,7 +87,7 @@ export default function OOTD() {
                     <h1 id="snap" className={style.Snap}>#Snap</h1>
                     <button className={style.AddOOTD} onClick={handleAddOOTDClick}>+</button> {/* 클릭
                  이벤트 핸들러 추가 */}
-                {showAddOOTD && <AddOOTD />} {/* 조건부 렌더링 */}
+                {showAddOOTD && <AddOOTD closeAddOOTD={handleAddOOTDClick} />}
 
                 <Slider {...settings}>
                     {filteredOOTD.map((item, index) => {
