@@ -1,3 +1,17 @@
+@media screen and (max-width:559px) {
+    .HeaderMenu li{
+        font-size: 14px;
+        margin-right: 5% !important;
+    }
+
+}
+@media screen and (max-width:410px) {
+    .HeaderMenu li{
+        font-size: 13px;
+        margin-right: 3% !important;
+    }
+
+}
 .Header{
     background-color: black;
     width: 100%;
@@ -18,7 +32,7 @@
     margin-left:20px;
     font-size: 30px !important;
     font-weight: normal;
-    width: 120px;
+    width: 90px;
 }
 .HeaderMenu{
     font-family: 'Giants-Inline';
