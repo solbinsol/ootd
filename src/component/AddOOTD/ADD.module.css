@@ -130,9 +130,16 @@
         margin-top: 6% !important;
         margin-left: 6% !important;
     }
+    .OOTDInput input{
+        width: 95% !important;
+    }
     .ItemInput{
         margin-left: 6% !important;
         margin-top: 2% !important;
+    }
+    .ItemInput input{
+        width: 95% !important;
+
     }
     .AddOOTD label{
         font-size: 13px !important;
