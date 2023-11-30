@@ -17,8 +17,8 @@
         "id": "test3@naver.com",
         "password": "test",
         "nickname": "Binsol",
-        "height": "174",
-        "weight": "60"
+        "height": "175",
+        "weight": "58"
     },
     {
         "id": "test4@naver.com",
@@ -33,5 +33,26 @@
         "nickname": "guest",
         "height": "174",
         "weight": "60"
+    },
+    {
+        "id": "test6@naver.com",
+        "password": "test",
+        "nickname": "안뇽",
+        "height": "174",
+        "weight": "60"
+    },
+    {
+        "id": "test5@naver.com",
+        "password": "test",
+        "nickname": "BOYBOY",
+        "height": "184",
+        "weight": "70"
+    },
+    {
+        "id": "test7@naver.com",
+        "password": "test",
+        "nickname": "BOYBOY",
+        "height": "184",
+        "weight": "70"
     }
 ]

@@ -29,7 +29,18 @@
 
 .CommentBox textarea{
     position: absolute;
-    width: 101%;
-    
+    width: 65%;
     bottom:0;
+}
+.CommentBox button{
+    position: absolute;
+    right: -5px;
+    bottom: 0;
+    width: 30%;
+    height: 38px;
+    background-color: yellow;
+    font-family: 'GongGothicMedium';
+
+    color:black;
+
 }

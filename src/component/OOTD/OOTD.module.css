@@ -5,23 +5,88 @@
 
     .OOTDPage .OOTD{
         width: 80vw !important;
-        height: 470px;
+        height: 600px;
         margin-left: 10% !important;
     }
     .IMGBOX{
-        height: 400px !important;
+        height: 520px !important;
     }
     .LeftOOTD img{
+        height: 520px !important;
+
     }
     .RightBox{
-        height: 353px !important;
+        height: 475px !important;
     }
     .Snap{
         margin-left: 10% !important;
     }
 
 }
-@media screen and (max-width:800px) {
+
+@media screen and (max-width:1200px) {
+    .AddOOTD{
+        right: 10% !important;
+    }
+
+    .OOTDPage .OOTD{
+        width: 80vw !important;
+        height: 500px;
+        margin-left: 10% !important;
+    }
+    .IMGBOX{
+        height: 430px !important;
+    }
+    .LeftOOTD img{
+        height: 430px !important;
+
+    }
+    .RightBox{
+        height: 385px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 50px !important;
+        float: left;
+        height: 60px !important;
+    }
+    .OOTDInfo p{
+        font-size: 11px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        margin-top: 3.5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 11px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 60% !important;
+    }
+    .Shopping{
+        position: absolute;
+        right: 0 !important;
+        width: 50px !important;
+        height: 50px !important;
+        position: absolute;
+        top:10px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+    }
+}
+
+@media screen and (max-width:900px) {
     .OOTDPage .OOTD{
         height: 400px !important;
 
@@ -29,6 +94,7 @@
         margin-left: 10% !important;
     }
     .LeftOOTD img{
+        height: 330px !important;
     }
     .IMGBOX{
         height: 330px !important;
@@ -81,22 +147,21 @@
 
 }
 
-@media screen and (max-width:624px) {
+@media screen and (max-width:710px) {
     .OOTDPage .OOTD{
-        height: 350px !important;
+        height: 370px !important;
 
         width: 80vw !important;
         margin-left: 10% !important;
     }
-    .LeftOOTD {
-        float: left !important;
-        width: 49% !important;
+    .LeftOOTD img{
+        height: 310px !important;
     }
     .IMGBOX{
-        height: 290px !important;
+        height: 310px !important;
     }
     .RightBox{
-        height: 240px !important;
+        height: 260px !important;
     }
     .Snap{
         margin-left: 10% !important;
@@ -110,15 +175,14 @@
         height: 60px !important;
     }
     .OOTDInfo p{
-        
-        font-size: 10px !important;
+        font-size: 11px !important;
         width: 60% !important;
         margin: 0 !important;
         margin-left: 5px !important;
         margin-top: 3.5px !important;
     }
     .OOTDInfo span{
-        font-size: 10px !important;
+        font-size: 11px !important;
         margin: 0 !important;
         margin-left: 5px !important;
 
@@ -144,9 +208,9 @@
 
 }
 
-@media screen and (max-width:461px) {
+@media screen and (max-width:624px) {
     .OOTDPage .OOTD{
-        height: 270px !important;
+        height: 320px !important;
 
         width: 80vw !important;
         margin-left: 10% !important;
@@ -155,11 +219,86 @@
         float: left !important;
         width: 49% !important;
     }
+    .LeftOOTD img{
+        height: 260px !important;
+    }
     .IMGBOX{
-        height: 220px !important;
+        height: 260px !important;
     }
     .RightBox{
-        height: 188.5px !important;
+        height: 226px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .OOTDInfo{
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 35px !important;
+        float: left;
+        height: 45px !important;
+    }
+    .OOTDInfo p{
+        
+        font-size: 10px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 10px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        width: 60% !important;
+
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:5px;
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        bottom: 5px !important;
+    }
+    .footMenu button{
+        height: 30px !important;
+        margin-right: 0.41%;
+        font-size: 12px;
+        line-height: 30px !important;
+    }
+
+
+}
+
+@media screen and (max-width:461px) {
+    .OOTDPage .OOTD{
+        height: 260px !important;
+
+        width: 80vw !important;
+        margin-left: 10% !important;
+    }
+    .LeftOOTD {
+        float: left !important;
+        width: 49% !important;
+    }
+    .LeftOOTD img{
+        height: 210px !important;
+    }
+    .IMGBOX{
+        height: 210px !important;
+    }
+    .RightBox{
+        height: 185.5px !important;
     }
     .Snap{
         margin-left: 10% !important;
@@ -212,13 +351,21 @@
         line-height: 30px !important;
         font-size: 12px !important;
     }
+    .footMenu button{
+        line-height: 20px !important;
+        font-size: 11px !important;
+        border: 1px solid #000 !important;
+        height: 20px !important;
+    }
+
 }
 
 
 @media screen and (max-width:415px) {
-
+    .UserInfo{
+        font-size: 11px !important;
+    }
     .OOTDPage .OOTD{
-        
         height: 230px !important;
 
         width: 80vw !important;
@@ -228,11 +375,14 @@
         float: left !important;
         width: 48% !important;
     }
+    .LeftOOTD img{
+        height: 180px !important;
+    }
     .IMGBOX{
         height: 180px !important;
     }
     .RightBox{
-        height: 147px !important;
+        height: 157px !important;
     }
     .Snap{
         margin-left: 10% !important;
@@ -243,15 +393,16 @@
     }
     .OOTDInfo img{
         margin-top: 2px;
-        width: 25px !important;
+        width: 22px !important;
         float: left;
-        height: 30px !important;
+        height: 27px !important;
     }
     .OOTDInfo p{
         font-size: 10px !important;
         width: 50% !important;
         margin: 0 !important;
         margin-left: 5px !important;
+        margin-top: 1px !important;
     }
     .OOTDInfo span{
         font-size: 10px !important;
@@ -269,22 +420,34 @@
         top:8px;
         right: 0 !important;
     }
+    .Name{
+        line-height: 10px !important;
+    }
 
     .Shopping img {
-        width: 100% !important;
-        height: 100% !important;
+        width: 90% !important;
+        height: 90% !important;
         object-fit:  contain;
     }
     #Cart{
-        bottom:10px !important;
+        bottom:13px !important;
     }
     .UserSpec{
         height: 25px !important;
     }
     .UserSpec p{
         font-weight: normal;
-        line-height: 30px !important;
-        font-size: 12px !important;
+        line-height: 29px !important;
+        font-size: 11px !important;
+    }
+    .Size{
+        display: none;
+    }
+    .footMenu button{
+        line-height: 20px !important;
+        font-size: 11px !important;
+        border: 1px solid #000 !important;
+        height: 20px !important;
     }
 
 }

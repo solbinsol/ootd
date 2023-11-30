@@ -17,9 +17,9 @@ export default function OOTDPage() {
       <div className={style.Trend}>
         <TrendSetter></TrendSetter>
       </div>
-      <div className={style.Item}>
+      {/* <div className={style.Item}>
         <HotItemComponent></HotItemComponent>
-      </div>
+      </div> */}
       
     </div>
   )

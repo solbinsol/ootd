@@ -1,0 +1,746 @@
+@media screen and (max-width:1400px) {
+
+
+    .OOTDPage .OOTD{
+        margin-left: 10% !important;
+        width: 100% !important;
+        left: 0;
+        height: 600px;
+    }
+    .IMGBOX{
+        height: 520px !important;
+    }
+    .LeftOOTD img{
+        height: 520px !important;
+
+    }
+    .RightBox{
+        height: 475px !important;
+    }
+
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .OOTDPage .OOTD{
+        width: 80vw !important;
+        height: 500px;
+    }
+    .IMGBOX{
+        height: 430px !important;
+    }
+    .LeftOOTD img{
+        height: 430px !important;
+
+    }
+    .RightBox{
+        height: 385px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 50px !important;
+        float: left;
+        height: 60px !important;
+    }
+    .OOTDInfo p{
+        font-size: 11px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        margin-top: 3.5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 11px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 60% !important;
+    }
+    .Shopping{
+        position: absolute;
+        right: 0 !important;
+        width: 50px !important;
+        height: 50px !important;
+        position: absolute;
+        top:10px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+    }
+}
+
+@media screen and (max-width:900px) {
+    .OOTDPage .OOTD{
+        height: 400px !important;
+
+        width: 80vw !important;
+    }
+    .LeftOOTD img{
+        height: 330px !important;
+    }
+    .IMGBOX{
+        height: 330px !important;
+    }
+    .RightBox{
+        height: 280px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .OOTDInfo{
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 50px !important;
+        float: left;
+        height: 60px !important;
+    }
+    .OOTDInfo p{
+        font-size: 11px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        margin-top: 3.5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 11px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:14px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        margin-top: 15px !important;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+    .OOTDPage .OOTD{
+        height: 370px !important;
+
+        width: 80vw !important;
+    }
+    .LeftOOTD img{
+        height: 310px !important;
+    }
+    .IMGBOX{
+        height: 310px !important;
+    }
+    .RightBox{
+        height: 260px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .OOTDInfo{
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 50px !important;
+        float: left;
+        height: 60px !important;
+    }
+    .OOTDInfo p{
+        font-size: 11px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        margin-top: 3.5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 11px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:14px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        margin-top: 15px !important;
+    }
+
+}
+
+@media screen and (max-width:624px) {
+    .OOTDPage .OOTD{
+        height: 320px !important;
+
+        width: 80vw !important;
+    }
+    .LeftOOTD {
+        float: left !important;
+        width: 49% !important;
+    }
+    .LeftOOTD img{
+        height: 260px !important;
+    }
+    .IMGBOX{
+        height: 260px !important;
+    }
+    .RightBox{
+        height: 226px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .OOTDInfo{
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 35px !important;
+        float: left;
+        height: 45px !important;
+    }
+    .OOTDInfo p{
+        
+        font-size: 10px !important;
+        width: 60% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 10px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        width: 60% !important;
+
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:5px;
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        bottom: 5px !important;
+    }
+    .footMenu button{
+        height: 30px !important;
+        margin-right: 0.41%;
+        font-size: 12px;
+        line-height: 30px !important;
+    }
+
+
+}
+
+@media screen and (max-width:461px) {
+    .OOTDPage .OOTD{
+        height: 260px !important;
+
+        width: 80vw !important;
+    }
+    .LeftOOTD {
+        float: left !important;
+        width: 49% !important;
+    }
+    .LeftOOTD img{
+        height: 210px !important;
+    }
+    .IMGBOX{
+        height: 210px !important;
+    }
+    .RightBox{
+        height: 185.5px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .footMenu button{
+        height: 30px !important;
+        line-height: 30px !important;
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 40px !important;
+        float: left;
+        height: 50px !important;
+    }
+    .OOTDInfo p{
+        font-size: 10px !important;
+        width: 50% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+    }
+    .OOTDInfo span{
+        font-size: 10px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+
+        margin-top: 3px !important;
+        width: 100px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:14px
+    }
+
+    .Shopping img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        margin-top: 5px !important;
+    }
+    .UserSpec{
+        height: 25px !important;
+    }
+    .UserSpec p{
+        font-weight: normal;
+        line-height: 30px !important;
+        font-size: 12px !important;
+    }
+    .footMenu button{
+        line-height: 20px !important;
+        font-size: 11px !important;
+        border: 1px solid #000 !important;
+        height: 20px !important;
+    }
+
+}
+
+
+@media screen and (max-width:415px) {
+    .UserInfo{
+        font-size: 11px !important;
+    }
+    .OOTDPage .OOTD{
+        height: 230px !important;
+
+        width: 80vw !important;
+    }
+    .LeftOOTD {
+        float: left !important;
+        width: 48% !important;
+    }
+    .LeftOOTD img{
+        height: 180px !important;
+    }
+    .IMGBOX{
+        height: 180px !important;
+    }
+    .RightBox{
+        height: 157px !important;
+    }
+    .Snap{
+        margin-left: 10% !important;
+    }
+    .footMenu button{
+        height: 30px !important;
+        line-height: 30px !important;
+    }
+    .OOTDInfo img{
+        margin-top: 2px;
+        width: 22px !important;
+        float: left;
+        height: 27px !important;
+    }
+    .OOTDInfo p{
+        font-size: 10px !important;
+        width: 50% !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        margin-top: 1px !important;
+    }
+    .OOTDInfo span{
+        font-size: 10px !important;
+        margin: 0 !important;
+        margin-left: 5px !important;
+        width: 150% !important;
+        display: none;
+        margin-top: 3px !important;
+    }
+
+    .Shopping{
+        width: 30px !important;
+        height: 30px !important;
+        position: absolute;
+        top:8px;
+        right: 0 !important;
+    }
+    .Name{
+        line-height: 10px !important;
+    }
+
+    .Shopping img {
+        width: 90% !important;
+        height: 90% !important;
+        object-fit:  contain;
+    }
+    #Cart{
+        bottom:13px !important;
+    }
+    .UserSpec{
+        height: 25px !important;
+    }
+    .UserSpec p{
+        font-weight: normal;
+        line-height: 29px !important;
+        font-size: 11px !important;
+    }
+    .Size{
+        display: none;
+    }
+    .footMenu button{
+        line-height: 20px !important;
+        font-size: 11px !important;
+        border: 1px solid #000 !important;
+        height: 20px !important;
+    }
+
+}
+.slick-arrow{
+    display: none !important;
+}
+.OOTDPage{
+    margin: 0 auto ;
+    max-width: 1900px !important;
+    position: relative;
+    width: 100% ;
+    height: 100vh;
+
+}
+.BB{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.OOTD{
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-family: 'GongGothicMedium';
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    
+    width: 60% ;
+    position: absolute;
+    top:10%;
+    margin-left: 20%;
+    left:0 !important;
+    margin-bottom: 20px ;
+    background-color: white;
+}
+
+.OOTDHeader{
+    
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    background-color: black;
+    height: 30px;
+    float: left;
+}
+.UserInfo{
+    margin: 0;
+    margin-left: 5px;
+    float: left;
+    line-height: 30px;
+    color:white;
+    font-size: 14px;
+}
+.Delete{
+    float: right;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+.Star{
+    color:yellow;
+    line-height: 30px;
+    float: right;
+}
+.IMGBOX{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 90%;
+    margin:5% 2.5% 5% 3%;
+    height: 600px;
+    background-color: gray;
+}
+
+.LeftOOTD img{
+    float: left;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    padding: 0;
+
+}
+.LeftOOTD{
+
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+
+
+
+.LeftOOTD .UserSpec{
+    margin-bottom: 5%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    background-color: rgba(0,0,0,0.5);
+    height: 40px;
+}   
+.LeftOOTD p{
+    float: left;
+    margin: 0;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    padding: 0;
+    bottom:5px;
+    margin-left: 5px;
+}
+.LeftOOTD button{
+    bottom:5px;
+    right: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0);
+    border: 0px solid #000;
+    padding: 0;
+    color:white;
+    font-size: 14px;
+    line-height: 38px;
+    margin-right: 5px;
+    float: right;
+}
+.RightBox{
+    margin-top: 2.5%;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    padding-left: 20px ;
+    height: 550px;
+    float: left;
+    width: calc(48% - 15px);
+    border-collapse: collapse;
+
+
+}
+
+.RightBox::-webkit-scrollbar{
+    display: none;
+  }
+  
+  
+.OOTDInfo{
+    border-collapse: collapse;
+    object-fit: contain;
+    position: relative;
+    right: 20px;
+    padding: 0;
+    padding: 5px;
+    border: 1px solid black;
+    width: 100%;
+    float: left;
+
+}
+.OOTDInfo img{
+    margin-top: 2px;
+    width: 100px;
+    float: left;
+    height: 120px;
+    
+}
+.OOTDInfo p{
+    margin: 0;
+    padding: 0;
+
+    float: left;
+    margin-left: 10px;
+    width: calc(100% - 220px);
+}
+.OOTD .Brand{
+    margin-bottom: 10px;
+    color:gray;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.Name{
+    margin-top: 13px !important;
+    font-size: 14px;
+}
+.Size{
+    margin-top: 3px !important;
+    font-size: 13px;
+}
+.Categori{
+    margin-top: 20px !important;
+    font-size: 14px;
+    width: calc(100% - 220px);
+    float: left;
+    margin-left: 10px;
+
+
+}
+
+.Shopping{
+    width: 45px;
+    background-color: white; 
+    border: 0px ;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    height: 120px;
+}
+#Heart{
+    position: relative;
+    bottom: 5px;
+    background-color: white; 
+    border: 0px ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+}
+#Cart{
+    position: relative;
+    bottom: 2px;
+    background-color: white; 
+    border: 0px ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+}
+
+
+.Shopping img {
+    width: 100%;
+    height: 100%;
+    object-fit:  contain;
+}
+
+.footMenu{
+    width: 40%;
+    float: left;
+    width: calc(48% - 3px);
+
+
+}
+.footMenu button{
+    cursor: pointer;
+    padding: 0;
+    width: 49%;
+    font-family: 'GongGothicMedium';
+    height: 45px;
+    background-color: white;
+    margin-top: 3px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+.Comment{
+    margin-left: 2%;
+    
+}
+.AddOOTD{
+    line-height: 35px; /* 높이와 동일하게 설정 */
+    animation: abc 2s infinite;
+    position: absolute;
+    font-size: 40px;
+    right: 20%;
+    top:90px;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+    background-color: #000;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 200px;
+
+    box-sizing: border-box; /* 패딩과 보더를 너비와 높이에 포함 */
+
+}
+.Snap{
+    font-family: 'Giants-Inline';
+    font-weight: bold;
+    border: 0px solid #000;
+    position: relative;
+    top: 40px;
+    margin: 0;
+    margin-left: 20%;
+}
+@keyframes abc {
+    0%, 100% {
+        transform: scale(1); /* 원래 크기 */
+    }
+    50% {
+        transform: scale(1.2); /* 20% 더 커짐 */
+    }
+}
+
+
+.CommentActive{
+    background-color: black !important;
+    color:white;
+}
+.Like{
+    width: 48.2% !important;
+}
+.LikeActive{
+    border: 2px solid pink !important;
+
+    background-color: pink !important;
+}

@@ -13,7 +13,21 @@
         margin-left: 10% !important;
     }
     .TSbox{
+        height: 400px !important;
+    }
+
+}
+@media screen and (max-width:1200px) {
+
+    .TSbox{
         height: 370px !important;
+    }
+
+}
+@media screen and (max-width:1000px) {
+
+    .TSbox{
+        height: 300px !important;
     }
 
 }
@@ -44,16 +58,25 @@
 
 @media screen and (max-width:721px) {
     .TSbox{
-        height: 200px !important;
+        height: 210px !important;
     }
 }
-@media screen and (max-width:581px) {
+@media screen and (max-width:601px) {
     .TSheader{
-        line-height: 30px !important;
-        font-size: 13px !important;
+        line-height: 26px !important;
+        font-size: 11px !important;
     }
     .TSbox{
-        height: 170px !important;
+        height: 180px !important;
+    }
+}
+@media screen and (max-width:601px) {
+    .TSheader{
+        line-height: 26px !important;
+        font-size: 11px !important;
+    }
+    .TSbox{
+        height: 155px !important;
     }
 }
 @media screen and (max-width:463px) {
@@ -62,7 +85,16 @@
         font-size: 10px !important;
     }
     .TSbox{
-        height: 140px !important;
+        height: 130px !important;
+    }
+}
+@media screen and (max-width:400px) {
+    .TSheader{
+        line-height: 25px !important;
+        font-size: 10px !important;
+    }
+    .TSbox{
+        height: 120px !important;
     }
 }
 .TrendSetter {

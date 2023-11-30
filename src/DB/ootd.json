@@ -1,9 +1,10 @@
 [
     {
         "id":1,
-        "like":2,
+        "like":10,
         "date":"23-08",
         "userId": "test@naver.com",
+        "nickname":"Kimsolbn",
         "imageSrc": "img/ootd1.jpg",
         "products": [
             {
@@ -59,9 +60,10 @@
     },
     {
         "date":"23-06",
+        "nickname":"Solbin",
 
         "id":2,
-        "like":4,
+        "like":14,
         "userId": "test2@naver.com",
         "imageSrc": "img/ootd2.jpg",
         "products": [
@@ -117,9 +119,10 @@
 
     {
         "date":"23-04",
+        "nickname":"Binsol",
 
         "id":3,
-        "like":3,
+        "like":13,
         "userId": "test3@naver.com",
         "imageSrc": "img/ootd4.jpg",
         "products": [
@@ -139,6 +142,96 @@
                 "size": "28",
                 "category": "바지",
                 "sLink" : "https://www.musinsa.com/app/goods/1786750/0",
+                "ItemLike":1
+            }
+            
+        ]
+    }
+    ,{
+        "date":"23-11",
+        "nickname":"IMBOY",
+
+        "id":4,
+        "like":8,
+        "userId": "test5@naver.com",
+        "imageSrc": "img/ootd5.jpg",
+        "products": [
+            {   
+                "thumnail" : "img/thumnail/ootd51.jpg",
+                "brand": "더바이하우스",
+                "name": "LIFE HOOD",
+                "size": "M",
+                "category": "상의",
+                "sLink" : "https://www.musinsa.com/app/goods/3540943",
+                "ItemLike":1
+            },
+            {   
+                "thumnail" : "img/thumnail/ootd52.jpg",
+                "brand": "엑스톤즈",
+                "name": "중청데님",
+                "size": "28",
+                "category": "바지",
+                "sLink" : "https://www.musinsa.com/app/goods/3434921",
+                "ItemLike":1
+            }
+            
+        ]
+    }
+    ,{
+        "date":"23-10",
+        "nickname":"Men",
+
+        "id":5,
+        "like":9,
+        "userId": "test6@naver.com",
+        "imageSrc": "img/ootd6.jpg",
+        "products": [
+            {   
+                "thumnail" : "img/thumnail/61.jpg",
+                "brand": "etce",
+                "name": "카모캡",
+                "size": "M",
+                "category": "악세사리",
+                "sLink" : "https://www.musinsa.com/app/goods/3402999",
+                "ItemLike":1
+            },
+            {   
+                "thumnail" : "img/thumnail/62.png",
+                "brand": "프로젝트 G/R",
+                "name": "플라이트데님",
+                "size": "28",
+                "category": "바지",
+                "sLink" : "https://www.soldout.co.kr/?af_xp=custom&pid=musinsa_snap&pid=musinsa_snap&c=musinsa_snap&c=musinsa_snap&deep_link_value=msoldoutapp%3A%2F%2Fwebview%2Ftype%3D1%26style%3D2%26header%3D0%26url%3Dhttps%253A%252F%252Fsvc.soldout.co.kr%252Ftrade%252Fproduct%252F5400804%253Fproduct_size_option_id%253D0%2526open_size%253D0&deep_link_value=msoldoutapp%3A%2F%2Fwebview%2Ftype%3D1%26style%3D2%26header%3D0%26url%3Dhttps%253A%252F%252Fsvc.soldout.co.kr%252Ftrade%252Fproduct%252F5400804%253Fproduct_size_option_id%253D0%2526open_size%253D0&af_item_title=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20G%2FR%20%ED%94%8C%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EB%8D%B0%EB%8B%98%20%ED%8C%AC%EC%B8%A0%20%EB%8D%94%EC%8A%A4%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4%3Faf_xp%3Dcustom&af_item_title=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20G%2FR%20%ED%94%8C%EB%9D%BC%EC%9D%B4%ED%8A%B8%20%EB%8D%B0%EB%8B%98%20%ED%8C%AC%EC%B8%A0%20%EB%8D%94%EC%8A%A4%ED%8A%B8%20%EA%B7%B8%EB%A0%88%EC%9D%B4",
+                "ItemLike":1
+            }
+            
+        ]
+    }
+    ,{
+        "date":"23-10",
+        "nickname":"PUPU",
+
+        "id":6,
+        "like":19,
+        "userId": "test7@naver.com",
+        "imageSrc": "img/ootd7.jpg",
+        "products": [
+            {   
+                "thumnail" : "img/thumnail/71.jpg",
+                "brand": "케이투",
+                "name": "씬에어 에코",
+                "size": "M",
+                "category": "아우터",
+                "sLink" : "https://www.musinsa.com/app/goods/3466042",
+                "ItemLike":1
+            },
+            {   
+                "thumnail" : "img/thumnail/72.jpg",
+                "brand": "케이투",
+                "name": "씬에어 포스",
+                "size": "28",
+                "category": "상의",
+                "sLink" : "https://www.musinsa.com/app/goods/3466044",
                 "ItemLike":1
             }
             

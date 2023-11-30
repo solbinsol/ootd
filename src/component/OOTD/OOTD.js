@@ -96,9 +96,12 @@ export default function OOTD() {
 
                 <Slider {...settings}>
                     {filteredOOTD.map((item, index) => {
+                            if (index < 4) {
+
                         // 해당 아이템의 사용자 정보를 찾음
                         const user = userInfo.find(user => user.id === item.userId);
                         return (
+                            
                             <div key={index} className={style.OOTD}>
                                 <div className={style.OOTDHeader}>
                                     {/* 사용자 정보를 표시 */}
@@ -149,6 +152,7 @@ export default function OOTD() {
                                 </div>
                             </div>
                         );
+                                }
                     })}
                 </Slider>
             </div>
