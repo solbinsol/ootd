@@ -183,6 +183,13 @@
         margin-top: 3% !important;
         margin-left: 6% !important;
     }
+    .OOTDInput input{
+        width: 93% !important;
+    }
+    .ItemInput input{
+        width: 93% !important;
+
+    }
     .AddOOTD label{
         line-height: 20px !important;
         font-size: 11px !important;
