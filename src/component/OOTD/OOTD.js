@@ -5,7 +5,7 @@ import style from "./OOTD.module.css";
 import userInfo from '../../DB/user.json';
 import ootdData from '../../DB/ootd.json';
 import Link from "next/link";
-import Comment from "../Comment/Comment";
+import OOTDComment from "../Comment/Comment";
 import AddOOTD from "../AddOOTD/AddOOTD";
 
 export default function OOTD() {
@@ -13,10 +13,9 @@ export default function OOTD() {
 
     const [showAddOOTD, setShowAddOOTD] = useState(false); // AddOOTD 컴포넌트를 표시할지 여부를 결정하는 상태
 
-    const handleAddOOTD = (newOOTD) => {
-        setFilteredOOTD((prevOOTD) => [...prevOOTD, newOOTD]);
-      };
 
+
+    const [commentData, setCommentData] = useState([]);
 
     useEffect(() => {
         const matchedData = ootdData.filter(ootdItem => 
@@ -78,6 +77,11 @@ export default function OOTD() {
         setShowComment(!showComment);
     };
 
+    const handleAddOOTD = (newOOTD) => {
+        setFilteredOOTD((prevOOTD) => [newOOTD, ...prevOOTD]);
+    };
+    
+
     return (
         <>
             <Head>
@@ -126,7 +130,7 @@ export default function OOTD() {
                                         </div>
                                     </div>
                                 ))}
-                                {showComment && <Comment ootdId={item.id} />}
+                                {showComment && <OOTDComment ootdId={item.id}  />}
                             </div>
 
                                 <div className={style.footMenu}>

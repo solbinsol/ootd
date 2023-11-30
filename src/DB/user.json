@@ -26,5 +26,12 @@
         "nickname": "ssosbsn",
         "height": "174",
         "weight": "60"
+    },
+    {
+        "id": "testest@naver.com",
+        "password": "test",
+        "nickname": "guest",
+        "height": "174",
+        "weight": "60"
     }
 ]
