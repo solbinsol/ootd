@@ -695,7 +695,6 @@
     line-height: 35px; /* 높이와 동일하게 설정 */
     animation: abc 2s infinite;
     position: absolute;
-    font-size: 40px;
     right: 20%;
     top:90px;
     cursor: pointer;
@@ -706,7 +705,7 @@
     height: 45px;
     border: 1px solid #000;
     border-radius: 200px;
-
+    font-size:30px !important;
     box-sizing: border-box; /* 패딩과 보더를 너비와 높이에 포함 */
 
 }

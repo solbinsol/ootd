@@ -685,6 +685,7 @@
 
 }
 .footMenu button{
+    
     cursor: pointer;
     padding: 0;
     width: 49%;
@@ -696,6 +697,8 @@
     box-sizing: border-box;
     border: 2px solid #000;
     border-collapse: collapse;
+    text-decoration: none;
+    color:black;
 }
 .Comment{
     margin-left: 2%;
@@ -741,7 +744,7 @@
 
 .CommentActive{
     background-color: black !important;
-    color:white;
+    color:white !important;
 }
 .Like{
     width: 48.2% !important;
@@ -751,3 +754,4 @@
 
     background-color: pink !important;
 }
+

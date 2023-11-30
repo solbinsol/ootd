@@ -1,10 +1,177 @@
-@media screen and(max-width:1400px) {
+@media screen and (max-width:1600px) {
     .AddOOTD{
         width: 80% !important;
-
+        height: 70vh !important;
         margin-left: 10% !important;
     }
 }
+
+@media screen and (max-width:1200px) {
+    .Logo{
+        font-size: 14px ;
+    }
+    .Logo h1{
+        font-size: 15px ;
+    }
+    .AddOOTD{
+
+        top:10% !important;
+        width: 80% !important;
+        height: 70vh !important;
+        margin-left: 10% !important;
+    }
+    .OOTDInput{
+        margin-top: 45px !important;
+    }
+    .OOTDInput label{
+        line-height: 22px !important;
+    }
+    .ItemInput{
+        margin-top: 35px !important;
+    }
+    .ItemInput label{
+        line-height: 22px !important;
+
+    }
+    .PreviewSection{
+        height: 75vh !important;
+    }
+    .PrevItem{
+        height: 35vh !important;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .ADDALL{
+        height: 100vh !important;
+    }
+    .AddOOTD{
+        top:5% !important; 
+        width: 80% !important;
+        height: 75vh !important;
+        margin-left: 10% !important;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .ADDALL{
+        height: 100vh !important;
+    }
+    .AddOOTD{
+        top:10% !important; 
+        width: 80% !important;
+        height: 68vh !important;
+        margin-left: 10% !important;
+    }
+    .OOTDInput input{
+        height: 15px !important;font-size: 10px !important;
+    }
+    .OOTDInput{
+
+        margin-bottom: 0 !important;
+    }
+    .ItemInput input{
+        margin-top: 0 !important;
+        height: 15px !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ADDALL{
+        height: 100vh !important;
+    }
+    .AddOOTD{
+        top:10% !important; 
+        width: 80% !important;
+        height: 65vh 
+        !important;
+        
+        margin-left: 10% !important;
+    }
+    .PrevItemBox{
+        
+    }
+    .ItemInput{
+    }
+    .PrevItem{
+        height: 40% !important;
+    }
+    .PreviewSection{
+        height: 65vh !important;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    
+    .OOTDPreviewBox img{
+        height: 200px !important;
+        
+    }
+
+    .PreviewSection{
+        height: 55vh !important;
+    }
+    .PrevItem{
+        height: 35% !important;
+    }
+    
+    .ADDALL{
+        font-size: 10px !important;
+        height: 100vh !important;
+    }
+    .AddOOTD{
+        
+        top:10% !important; 
+        width: 80% !important;
+        height: 55vh 
+        !important;
+        margin-left: 10% !important;
+    }
+    .AddOOTD label{
+        font-size: 13px !important;
+    }
+    
+}
+
+@media screen and (max-width:420px) {
+    .PreviewSection{
+        height: 88vh !important;
+    }
+    .PrevItem{
+        height: 35% !important;
+    }
+    .AddItemLogoE{
+        margin-bottom: 20px !important;
+    }
+
+    .PrevItem img{
+        height: 30px
+         !important;
+        width: 30px !important;
+    }
+    .PrevItem p{
+        width: auto !important;
+        line-height: 30px !important;
+        font-size: 11px !important;
+    }
+    .AddOOTD{
+        top:5% !important; 
+        width: 80% !important;
+        height: 88vh 
+        !important;
+        margin-left: 10% !important;
+    }
+    .AddOOTD label{
+        font-size: 13px !important;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .PreviewSection{
+        height: 25vh !important;
+    }
+}
+
 .ADDALL{
     background-color: rgba(0,0,0,0.8);
     width: 100%;
@@ -18,7 +185,7 @@
 }
 .AddOOTD{
     width: 60%;
-    height: 80vh;
+    height: 83vh;
     background-color: rgb(27, 23, 23);
     max-width: 1900px;
     position: absolute;
@@ -75,20 +242,20 @@
     width: 80%;
     border: 3px solid white;
     border-radius: 5px;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 .OOTDInput input{
     width: 99%;
     font-size:1.2rem;
 }
 .ItemInput{
+    margin-left: 8%;
     float: left;
     margin-top: 30px;
     padding: 10px;
     width: 80%;
     border: 3px solid white;
     border-radius: 5px;
-    margin-left: 10%;
 }
 .ItemInput input{
     width: 99%;
@@ -136,9 +303,10 @@
 .PreviewSection{
     background-color: white;
     position: absolute;
-    height: 80vh;
+    height: 83vh;
     width: 100%;
-    
+    border: 2px solid #000;    
+    box-sizing: border-box;
 }
 .PreviewSection h1{
     color : black;
@@ -227,6 +395,8 @@
 }
 .PrevInfo{
     width: 100%;
+
+    background-color: white;
 }
 .AddItemLogoE{
     margin: 0;
@@ -250,7 +420,7 @@
     float: left;
     margin-top: 2%;
     height: 250px;
-    background-color: antiquewhite;
+
 }
 .OOTDPreviewBox li{
     list-style: none;
@@ -259,4 +429,8 @@
     float: left;
     margin-top: 20px;
     margin-left: 5%;
+}
+.DeleteItem{
+    color:black;
+    cursor: pointer;
 }
