@@ -87,9 +87,9 @@ export default function Comment({ ootdId }) {
       <textarea
         value={newComment}
         onChange={(e) => setNewComment(e.target.value)}
-        placeholder="댓글을 입력하세요."
+        
       ></textarea>
-      <button onClick={handleAddComment}>댓글 추가</button>
+      <button onClick={handleAddComment}>댓글</button>
     </div>
   );
 }

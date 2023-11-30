@@ -731,7 +731,7 @@
 
 .CommentActive{
     background-color: black !important;
-    color:white;
+    color:white !important;
 }
 .Like{
     width: 48.2% !important;
