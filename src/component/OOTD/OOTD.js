@@ -13,9 +13,9 @@ export default function OOTD() {
 
     const [showAddOOTD, setShowAddOOTD] = useState(false); // AddOOTD 컴포넌트를 표시할지 여부를 결정하는 상태
 
-    const handleAddOOTDClick = () => {
-        setShowAddOOTD(!showAddOOTD); // 상태 토글
-    };
+    const handleAddOOTD = (newOOTD) => {
+        setFilteredOOTD((prevOOTD) => [...prevOOTD, newOOTD]);
+      };
 
 
     useEffect(() => {
@@ -85,9 +85,10 @@ export default function OOTD() {
             </Head>
             <div className={style.OOTDPage}>
                     <h1 id="snap" className={style.Snap}>#Snap</h1>
-                    <button className={style.AddOOTD} onClick={handleAddOOTDClick}>+</button> {/* 클릭
-                 이벤트 핸들러 추가 */}
-                {showAddOOTD && <AddOOTD closeAddOOTD={handleAddOOTDClick} />}
+                    <button className={style.AddOOTD} onClick={() => setShowAddOOTD(!showAddOOTD)}>
+          +
+        </button>
+        {showAddOOTD && <AddOOTD closeAddOOTD={() => setShowAddOOTD(false)} onAddOOTD={handleAddOOTD} />}
 
                 <Slider {...settings}>
                     {filteredOOTD.map((item, index) => {
@@ -111,22 +112,23 @@ export default function OOTD() {
                                     </div>
                                 </div>
                                 <div className={style.RightBox}>
-                                    {item.products.map((product, prodIndex) => (
-                                        <div key={prodIndex} className={style.OOTDInfo}
-                                        style={{ display: showComment ? 'none' : 'block' }}>
-                                            <img src={product.thumnail} alt={product.name}/>
-                                            <p className={style.Brand}>{product.brand}</p>
-                                            <p className={style.Name}>{product.name}</p>
-                                            <p className={style.Size}>{product.size}</p>
-                                            <span className={style.Categori}>{product.category}</span>
-                                            <div className={style.Shopping}>
-                                                <button id={style.Heart}><img src="/img/icon/heart.jpeg" alt="Heart"/></button>
-                                                <button id={style.Cart}><Link href={product.sLink}><img src="/img/icon/cart.png" alt="Cart"/></Link></button>
-                                            </div>
+                                {item.products && item.products.map((product, prodIndex) => (
+                                    <div key={prodIndex} className={style.OOTDInfo}
+                                    style={{ display: showComment ? 'none' : 'block' }}>
+                                        <img src={product.thumnail} alt={product.name}/>
+                                        <p className={style.Brand}>{product.brand}</p>
+                                        <p className={style.Name}>{product.name}</p>
+                                        <p className={style.Size}>{product.size}</p>
+                                        <span className={style.Categori}>{product.category}</span>
+                                        <div className={style.Shopping}>
+                                            <button id={style.Heart}><img src="/img/icon/heart.jpeg" alt="Heart"/></button>
+                                            <button id={style.Cart}><Link href={product.sLink}><img src="/img/icon/cart.png" alt="Cart"/></Link></button>
                                         </div>
-                                    ))}
-                                    {showComment && <Comment />}
-                                </div>
+                                    </div>
+                                ))}
+                                {showComment && <Comment ootdId={item.id} />}
+                            </div>
+
                                 <div className={style.footMenu}>
 
 

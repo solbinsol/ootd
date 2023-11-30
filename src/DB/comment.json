@@ -1,0 +1,46 @@
+[
+    {
+      "ootdId": 1,
+      "comments": [
+        {
+          "id": 1,
+          "userId": "test2@naver.com",
+          "nickname": "solbin", 
+          "content": "Great outfit!",
+          "date": "2023-11-30"
+        },
+        {
+          "id": 2,
+          "userId": "test3@naver.com",
+          "nickname": "User2", 
+          "content": "Love the style!",
+          "date": "2023-12-01"
+        }
+      ]
+    },
+    {
+      "ootdId": 2,
+      "comments": [
+        {
+          "id": 3,
+          "userId": "test3@naver.com",
+          "nickname": "solbin2",
+          "content": "Awesome look!",
+          "date": "2023-12-02"
+        }
+      ]
+    },
+    {
+      "ootdId": 3,
+      "comments": [
+        {
+          "id": 3,
+          "userId": "test4@naver.com",
+          "nickname": "solbin3 ", 
+          "content": "Good!",
+          "date": "2023-12-02"
+        }
+      ]
+    }
+  ]
+  

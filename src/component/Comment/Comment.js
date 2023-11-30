@@ -1,28 +1,27 @@
 import React from "react";
 import style from "./Comment.module.css";
+import commentData from "../../DB/comment.json";
 
-export default function Comment(){
-    return(
-        <div className={style.CommentBox} >
-            <div className={style.CommentList}>
-                <ul>
-                    <li className={style.CommentInfo}>닉네임 / 작성날짜</li>
-                    <li className={style.CommentContent}>어쩌고 저쩌고</li>
-                </ul>
+export default function Comment({ ootdId }) {
+  // Find the item with the matching ootdId
+  const ootdItem = commentData.find((item) => item.ootdId === ootdId);
 
-                <ul>
-                    <li className={style.CommentInfo}>닉네임 / 작성날짜</li>
-                    <li className={style.CommentContent}>어쩌고 저쩌고</li>
-                </ul>
+  // Check if ootdItem exists and has comments
+  const ootdComments = ootdItem?.comments || [];
 
-                <ul>
-                    <li className={style.CommentInfo}>닉네임 / 작성날짜</li>
-                    <li className={style.CommentContent}>어쩌고 저쩌고</li>
-                </ul>
-
-            </div>
-            <textarea></textarea>
-
-        </div>
-    )
+  return (
+    <div className={style.CommentBox}>
+      <div className={style.CommentList}>
+        {ootdComments.map((comment) => (
+          <ul key={comment.id}>
+            <li className={style.CommentInfo}>
+              {comment.nickname} / {comment.date}
+            </li>
+            <li className={style.CommentContent}>{comment.content}</li>
+          </ul>
+        ))}
+      </div>
+      <textarea></textarea>
+    </div>
+  );
 }
