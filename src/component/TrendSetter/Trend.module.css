@@ -99,7 +99,6 @@
 }
 .TrendSetter {
     margin: 0 auto ;
-    max-width: 1900px;
     padding: 0;
     margin-left: 20%;
     float: left;
@@ -109,6 +108,9 @@
 }
 .TrendSetterBox{
     width: 100%;
+    max-width: 1200px;  
+    margin: 0 auto !important;
+
 }
 .TSbox{
     position: relative;

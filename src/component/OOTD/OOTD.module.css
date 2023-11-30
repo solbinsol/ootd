@@ -1,3 +1,36 @@
+/* @media screen and (max-width:3000px) and (min-width:2099px) {
+    .OOTDPage .OOTD{
+        box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        font-family: 'GongGothicMedium';
+        float: left;
+        margin-top: 40px;
+        margin-left: 17% !important;
+        margin-bottom: 60px;
+        width: 66% !important;
+        margin-bottom: 20px ;
+    }
+    .Snap{
+
+        margin-left: 17% !important;
+    }
+    
+} */
+
+
+@media screen and (max-width:1900px) {
+    .OOTD{
+        box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        font-family: 'GongGothicMedium';
+        float: left;
+        margin-top: 40px;
+        margin-left: 20%;
+        margin-bottom: 60px;
+        width: 60% !important;
+        margin-bottom: 20px ;
+    }
+    
+}
+
 @media screen and (max-width:1400px) {
     .AddOOTD{
         right: 10% !important;

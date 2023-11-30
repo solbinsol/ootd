@@ -26,8 +26,9 @@ export default function TrendSetter() {
 
     return (
         <div className={style.TrendSetter}>
-            <h1>TrendSetter</h1>
             <div id="TrendSetter" className={style.TrendSetterBox}>
+            <h1>TrendSetter</h1>
+
                 {sortedTrendData.map((item, index) => (
                     <Link href="#TrendSetter">
                     <div
