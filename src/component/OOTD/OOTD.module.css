@@ -317,6 +317,16 @@
 }
 
 @media screen and (max-width:461px) {
+    .AddOOTD{
+        top:85px !important;
+        width: 25px !important;
+        height: 25px !important;
+        line-height: 20px !important;
+        font-size: 10px !important;
+        text-align: center !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
     .OOTDPage .OOTD{
         height: 260px !important;
 
