@@ -238,3 +238,25 @@
     margin-left: 2.5%;
 
 }
+.OOTDPreviewBox{
+    color:black;
+}
+.OOTDPreviewBox img{
+    
+    color:black;
+    float: left;
+    margin-left: 2.5%;
+    width: 200px;
+    float: left;
+    margin-top: 2%;
+    height: 250px;
+    background-color: antiquewhite;
+}
+.OOTDPreviewBox li{
+    list-style: none;
+}
+.RightInfo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+}

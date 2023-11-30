@@ -1,10 +1,12 @@
 // AddOOTD.js
 
-import React, { useState } from "react";
+import React, { useState ,useEffect } from "react";
 import style from "./ADD.module.css";
 import ootdData from "../../DB/ootd.json";
 
 export default function AddOOTD(props) {
+    const [currentDate, setCurrentDate] = useState('');
+
     const [userId, setUserId] = useState("");
     const [snapURL, setSnapURL] = useState("");
     const [brand, setBrand] = useState("");
@@ -27,10 +29,35 @@ export default function AddOOTD(props) {
       const handleCloseClick = () => {
         props.closeAddOOTD();
       };
+      
+
+
+      useEffect(() => {
+        // Function to update the current date
+        const updateDate = () => {
+            const today = new Date();
+            const year = today.getFullYear().toString().substring(2);
+            const month = (today.getMonth() + 1).toString().padStart(2, '0');
+            const formattedDate = `${year}-${month}`;
+            setCurrentDate(formattedDate);
+          };
+    
+        // Initial update
+        updateDate();
+    
+        // Update the date every second (you can adjust the interval)
+        const intervalId = setInterval(updateDate, 1000);
+    
+        // Cleanup the interval on component unmount
+        return () => clearInterval(intervalId);
+      }, []); // Empty dependency array ensures that the effect runs only once on mount
+
+      
+
 
     const handleAddProduct = () => {
 
-        const currentDate = new Date();
+    const currentDate = new Date();
     const year = currentDate.getFullYear().toString().substring(2); // 년도에서 뒤의 두 자리만 가져오기
     const month = (currentDate.getMonth() + 1).toString().padStart(2, '0'); // 월을 두 자리로 만들기
     const day = currentDate.getDate().toString().padStart(2, '0'); // 일을 두 자리로 만들기
@@ -40,7 +67,7 @@ export default function AddOOTD(props) {
 
 
       const newProduct = {
-        thumnail: snapURL,
+        snapURL: snapURL,
         brand: brand,
         name: name,
         size: size,
@@ -48,7 +75,6 @@ export default function AddOOTD(props) {
         sLink: sLink,
         thumnail: thumnail,
         ItemLike: 0,
-
         date: formattedDate
 
       };
@@ -201,6 +227,13 @@ export default function AddOOTD(props) {
 
                 <div className={style.PrevInfo}>
                     <h3 className={style.AddItemLogoE}>OOTD Preview</h3>
+                    <div className={style.OOTDPreviewBox}>
+                        <img src={snapURL} alt={snapURL}/>
+                        <div className={style.RightInfo}>
+                            <li>{userId}</li>
+                            <li>DATE:{currentDate}</li>
+                        </div>
+                    </div>
                 </div>
             </div>
       )}
