@@ -135,7 +135,7 @@
 
 @media screen and (max-width:420px) {
     .PreviewSection{
-        height: 88vh !important;
+        height: 48vh !important;
     }
     .PrevItem{
         height: 35% !important;
@@ -157,18 +157,30 @@
     .AddOOTD{
         top:5% !important; 
         width: 80% !important;
-        height: 88vh 
+        height: 48vh 
         !important;
         margin-left: 10% !important;
     }
+    .OOTDInput{
+        margin-top: 4% !important ;
+        margin-left: 6% !important;
+    }
+    .ItemInput{
+        margin-top: 3% !important;
+        margin-left: 6% !important;
+    }
     .AddOOTD label{
-        font-size: 13px !important;
+        line-height: 20px !important;
+        font-size: 11px !important;
+    }
+    .AddOOTD select{
+        height: 20px !important;
     }
     
 }
 @media screen and (max-width:400px) {
     .PreviewSection{
-        height: 25vh !important;
+        height: 48vh !important;
     }
 }
 
