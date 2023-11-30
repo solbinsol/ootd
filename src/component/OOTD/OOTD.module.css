@@ -248,6 +248,7 @@
         width: 80vw !important;
         margin-left: 10% !important;
     }
+    
     .LeftOOTD {
         float: left !important;
         width: 49% !important;
@@ -262,6 +263,8 @@
         height: 226px !important;
     }
     .Snap{
+        font-size: 14px !important;
+
         margin-left: 10% !important;
     }
     .OOTDInfo{
@@ -334,6 +337,8 @@
         height: 185.5px !important;
     }
     .Snap{
+        font-size: 14px !important;
+
         margin-left: 10% !important;
     }
     .footMenu button{

@@ -276,6 +276,8 @@
 }
 
 @media screen and (max-width:461px) {
+    .Snap{
+    }
     .BB{
         height: 35vh !important;
     }
@@ -298,6 +300,8 @@
         height: 185.5px !important;
     }
     .Snap{
+        font-size: 12px !important;
+
         margin-left: 10% !important;
     }
     .footMenu button{

@@ -61,13 +61,17 @@
         height: 210px !important;
     }
 }
-@media screen and (max-width:601px) {
+@media screen and (max-width:624px) {
     .TSheader{
         line-height: 26px !important;
         font-size: 11px !important;
     }
     .TSbox{
         height: 180px !important;
+    }
+    .TrendSetter h1{
+        font-size: 14px !important;
+        margin-top: 30px;
     }
 }
 @media screen and (max-width:601px) {
