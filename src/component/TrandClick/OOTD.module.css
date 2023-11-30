@@ -1,6 +1,8 @@
 @media screen and (max-width:1400px) {
 
-
+    .BB{
+        height:70vh !important;
+    }
     .OOTDPage .OOTD{
         margin-left: 10% !important;
         width: 100% !important;
@@ -80,6 +82,9 @@
 }
 
 @media screen and (max-width:900px) {
+    .BB{
+        height: 42vh !important;
+    }
     .OOTDPage .OOTD{
         height: 400px !important;
 
@@ -271,6 +276,9 @@
 }
 
 @media screen and (max-width:461px) {
+    .BB{
+        height: 35vh !important;
+    }
     .OOTDPage .OOTD{
         height: 260px !important;
 
@@ -447,13 +455,12 @@
     max-width: 1900px !important;
     position: relative;
     width: 100% ;
-    height: 100vh;
 
 }
 .BB{
     position: absolute;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     left: 0;
     background-color: rgba(0,0,0,0.4);
 }
